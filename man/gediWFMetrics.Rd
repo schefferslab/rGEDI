@@ -74,7 +74,7 @@ gediWFMetrics(
 )
 }
 \arguments{
-\item{input}{\code{\link[rGEDI:gedi.level1bSim-class]{gedi.level1bSim}} (may be a list of objects). Simulated waveform input object(s).}
+\item{input}{\code{\linkS4class{gedi.level1bSim}} (may be a list of objects). Simulated waveform input object(s).}
 
 \item{outRoot}{name. output filename root}
 

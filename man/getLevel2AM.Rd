@@ -7,11 +7,11 @@
 getLevel2AM(level2a)
 }
 \arguments{
-\item{level2a}{A GEDI Level2A object (output of \code{\link[rGEDI:readLevel2A]{readLevel2A}} function).
+\item{level2a}{A GEDI Level2A object (output of \code{\link[=readLevel2A]{readLevel2A()}} function).
 An S4 object of class "gedi.level2a".}
 }
 \value{
-Returns an S4 object of class \code{\link[data.table:data.table]{data.table-class}}
+Returns an S4 object of class \link[data.table:data.table]{data.table::data.table}
 containing the elevation and relative heights metrics.
 }
 \description{
@@ -31,7 +31,7 @@ Characteristics. Flag indicating likely invalid waveform (1=valid, 0=invalid).
 \item \emph{lon_lowestmode} Longitude of center of lowest mode
 \item \emph{elev_highestreturn} Elevation of highest detected return relative to reference ellipsoid Meters
 \item \emph{elev_lowestmode} Elevation of center of lowest mode relative to reference ellipsoid
-\item \emph{rh} Relative height metrics at 1\\% interval
+\item \emph{rh} Relative height metrics at 1\% interval
 }
 }
 \examples{

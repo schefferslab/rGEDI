@@ -3,7 +3,7 @@
 #' @description GEDI full waveform data processing and metrics extraction
 #'
 #! \bold{Input output}
-#' @param input \code{\link[rGEDI:gedi.level1bSim-class]{gedi.level1bSim}} (may be a list of objects). Simulated waveform input object(s).
+#' @param input [`rGEDI::gedi.level1bSim-class`] (may be a list of objects). Simulated waveform input object(s).
 #' @param outRoot name. output filename root
 # @param inList list. input file list for multiple files
 #' @param writeFit write fitted waveform

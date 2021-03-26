@@ -9,7 +9,7 @@
 #'@param buffer_size integer; the size of download chunk in KB to hold in memory before writing to file, default 512.
 #'@param timeout integer; connection timeout in seconds.
 #'
-#'@return No return value on success, on failure it will \code{stop()}
+#'@return No return value on success, on failure it will `stop()`
 #'@references Credits to Cole Krehbiel. Code adapted from <https://git.earthdata.nasa.gov/projects/LPDUR/repos/daac_data_download_r/browse/DAACDataDownload.R>
 #'@examples
 #'\dontrun{

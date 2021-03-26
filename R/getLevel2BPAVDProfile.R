@@ -4,10 +4,10 @@
 #'
 #'@usage getLevel2BPAVDProfile(level2b)
 #'
-#'@param level2b A GEDI Level2B object (output of \code{\link[rGEDI:readLevel2B]{readLevel2B}} function).
+#'@param level2b A GEDI Level2B object (output of [readLevel2B()] function).
 #'An S4 object of class "gedi.level2b".
 #'
-#'@return Returns an S4 object of class \code{\link[data.table:data.table]{data.table-class}}
+#'@return Returns an S4 object of class [data.table::data.table]
 #'containing the Plant Area Volume Density Index.
 #'
 #'@seealso https://lpdaac.usgs.gov/products/gedi02_bv001/

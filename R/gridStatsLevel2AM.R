@@ -6,7 +6,7 @@
 #'
 #'@usage gridStatsLevel2AM(level2AM, func, res)
 #'
-#'@param level2AM A GEDI Level2AM object (output of \code{\link[rGEDI:getLevel2AM]{getLevel2AM}} function).
+#'@param level2AM A GEDI Level2AM object (output of [getLevel2AM()] function).
 #'An S4 object of class "data.table".
 #'@param func The function(s) to be applied to each cell
 #'@param res Spatial resolution in decimal degrees for the output raster layer

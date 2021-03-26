@@ -68,16 +68,16 @@
 # @param seed n integer. random number seed
 #'
 #' #'
-#' @return Returns an S4 object of class \code{\link[hdf5r:H5File-class]{hdf5r::H5File}} form the \emph{hdf5r} package
+#' @return Returns an S4 object of class [`hdf5r::H5File-class`]
 #' containing the simulated GEDI full-waveform.
 #'
 #' @seealso
 #' i) Hancock, S., Armston, J., Hofton, M., Sun, X., Tang, H., Duncanson, L.I., Kellner,
 #' J.R. and Dubayah, R., 2019. The GEDI simulator: A large-footprint waveform lidar simulator
 #' for calibration and validation of spaceborne missions. Earth and Space Science.
-#' https://doi.org/10.1029/2018EA000506
+#' [https://doi.org/10.1029/2018EA000506]
 #'
-#' ii) gediSimulator: https://bitbucket.org/StevenHancock/gedisimulator/src/master/
+#' ii) gediSimulator: [https://bitbucket.org/StevenHancock/gedisimulator/src/master/]
 #'
 #'@examples
 #'\dontshow{

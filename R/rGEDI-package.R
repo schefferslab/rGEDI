@@ -8,7 +8,7 @@
 #'See more details about GEDI data in https://gedi.umd.edu/data/products/.
 #'
 #'@seealso
-#'For comprehensive examples refer to \href{../doc/tutorial.html}{\code{vignette("Tutorial", package = "rGEDI")}}
+#'For comprehensive examples refer to \href{../doc/tutorial.html}{`vignette("Tutorial", package = "rGEDI")`}
 #'
 #'@docType package
 #'@name rGEDI-package
