@@ -103,7 +103,7 @@ gediDownloadFile = function(url, outdir, overwrite, buffer_size, netrc, timeout)
     fileHandle=file(resume, open="ab", raw = T)
     message("Connecting...")
     conn = tryCatch(curl::curl(url, handle=h, open="rb"), error = function(e) {
-          file.remove(netrc)
+        # file.remove(netrc)
           stop(e)
         })
     message("Connected successfully, downloading...")
